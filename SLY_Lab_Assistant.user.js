@@ -21,7 +21,7 @@
     let enableAssistant = false;
     let initComplete = false;
     let rpcEndpoints = ['https://solana-mainnet.g.alchemy.com/v2/2lyABt1cNhB6SWiq43T861PDjGNasFFB','https://rpc.hellomoon.io/c5380c0d-d565-41e2-baca-e0a7cbbbf983'];
-    const priorityFee = 1; // Priority Fee added to each transaction in Lamports. Set to 0 (zero) to disable priority fees. 1 Lamport = 0.000018 SOL
+    const priorityFee = 1; // Priority Fee added to each transaction in Lamports. Set to 0 (zero) to disable priority fees. 1 Lamport = 0.00003 SOL
 
     const connectionProxy = {
         get(target, key, receiver) {
